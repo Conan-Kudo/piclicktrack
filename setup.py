@@ -38,5 +38,6 @@ setup(
 	scripts=['piclicktrack'],
 	package_data={
 		'clicktrack': ['data/*']
-	}
+	},
+	include_package_data = True
 )
